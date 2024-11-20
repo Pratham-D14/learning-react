@@ -1,0 +1,14 @@
+{
+  "name": "video2",
+  "version": "1.0.0",
+  "description": "This is video2 by akshay saini",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.0"
+  }
+}
