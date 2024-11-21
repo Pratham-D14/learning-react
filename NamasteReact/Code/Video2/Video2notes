@@ -1,0 +1,37 @@
+# Advantages of using parcel in your project
+
+- Dev Build
+- local server
+- HMR = Hot Module Replacement
+- File Watching Algorithm - written in c++
+- Caching -> Faster Builds
+- Image Optimization
+- Minifications
+- Bundling
+- Compress
+- Consistent Hashing
+- Code Splitting
+- Differential Bundling - to support older browsers
+- Diagnostic
+- Error Handling
+- HTTPs
+- tree Shaking - remove unused code
+- Different build for dev & production (npx parcel build index.html -> production build command)
+
+#
+
+#
+
+# How to Add Supporting Browser's list in a Project
+
+- Inside your Package.json
+  "browserList": [
+  "last 2 Chrome versions",
+  "last 2 Firefox versions"
+  ]
+
+- To specify the versions we can check the link
+
+* url -> browserlist.dev
+
+- The above configuration means the code will run defenetly on the given version's and might not for other versions
