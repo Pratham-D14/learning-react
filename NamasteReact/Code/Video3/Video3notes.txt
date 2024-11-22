@@ -1,0 +1,47 @@
+# Video 3 Notes
+
+# JSX is not HTML!
+
+# It's syntax is like HTML or XML
+
+# Javascript Engine only understand ECMAScripts and this is what browser's understand
+
+# Babel is js transpiler. It converts jsx code that js engine will understand
+
+# How JSX Works Behind The Scence
+
+# JSX => React.createElement => Javascript{Object} => HTMLElement(Object) -> \*(converstion happen using Babel)
+
+
+\* Component in React
+
+1. Class Based Component:
+    Old way of writing code,
+    It uses Javascript classes,
+
+2. Functional Component:
+    New way of writing code,
+    It uses Javascript Function,
+
+    Syntax: 
+        const FunctionalComponet = () => {
+            return <h1>React Functional Component</h1>
+        }
+
+
+# What is Component Composition:
+    Component Composition is adding Component into a Component
+
+# Can we use Normal Function:
+    Yes, we can also uses normal function also instead of arrowFunction
+    const func = function () { return (content);}
+    but it's better to use arrow functions
+
+# running Javascript code in component:
+    - {} -> using carly braceces you can write any Javascript expression
+    - Also call the variable inside your component: 
+        example: code line 27 
+    - while using this or reading data from frontend JSX while escape the malicious Attack by sanitizing that data
+    - {} -> while using this it prevents cross site scripting for us
+    - you can also call a functional Component inside {} 
+        example: code line 30
