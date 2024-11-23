@@ -1,0 +1,31 @@
+# 2 ways of writing CSS
+
+    - example code line: 32
+    - example code line: 42
+
+# Props
+
+    - Passing a Prop to function is just like passing a argument to function
+    - example giving props code line 27
+    - example using props code line 54
+
+# props Destructing
+
+    - same as props but using destructing instead of props.name
+    - example on code line 4
+
+# Config Driven UI
+
+    - config driven UI means your UI driven by config (data coming from backend)
+
+<!--  -->
+
+\* Impoertant
+
+# Why we need key while looping through a List
+
+- When there are component at same level then a component should have a unique ID
+  if we don't give a unique id and when added a new card/element it will render all the elements present
+  because react treats all the element or cards as same.
+
+- If given unique ID it will render only one element/card that is the new element and not all the element present
