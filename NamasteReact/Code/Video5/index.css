@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Component */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  border: 1px solid black;
+  padding: 0px 20px;
+}
+
+.nav-items {
+  padding: 0px 20px;
+}
+
+.logo {
+  width: 100px;
+  cursor: pointer;
+}
+
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Body Component  */
+.body-compo {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.sub-nav {
+  display: flex;
+  gap: 38px;
+  margin-bottom: 20px;
+}
+
+.search {
+  width: 300px;
+  padding: 4px 8px;
+  border: 1px solid black;
+}
+
+.fliter-btn {
+  padding: 5px 8px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 38px;
+  /* padding: 20px; */
+}
+
+.resto-card {
+  width: 23%;
+  /* height: 100%; */
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.resto-card:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.resto-card > * {
+  margin-bottom: 10px;
+}
+
+.resto-img {
+  width: 100%;
+  /* height: 20%; */
+}
